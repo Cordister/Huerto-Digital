@@ -1,0 +1,67 @@
+[
+  {
+    "nombre": "Tomate",
+    "espacio": "60-90 cm entre plantas",
+    "tiempo_crecimiento": "60-85 días",
+    "necesidades": {
+      "agua": "Riego regular, mantener el suelo húmedo pero no encharcado",
+      "sustrato": "Suelo bien drenado y fértil, rico en materia orgánica",
+      "ph": "6.0-6.8"
+    },
+    "epoca_siembra": "Primavera",
+    "epoca_cosecha": "Verano",
+    "notas_adicionales": "Proporcionar soporte con estacas o jaulas para un mejor crecimiento"
+  },
+  {
+    "nombre": "Lechuga",
+    "espacio": "20-30 cm entre plantas",
+    "tiempo_crecimiento": "30-70 días",
+    "necesidades": {
+      "agua": "Riego regular, mantener el suelo uniformemente húmedo",
+      "sustrato": "Suelo bien drenado, rico en materia orgánica",
+      "ph": "6.0-6.5"
+    },
+    "epoca_siembra": "Primavera y otoño",
+    "epoca_cosecha": "Primavera y otoño",
+    "notas_adicionales": "Prefiere climas frescos, evitar el calor extremo"
+  },
+  {
+    "nombre": "Zanahoria",
+    "espacio": "5-10 cm entre plantas",
+    "tiempo_crecimiento": "70-80 días",
+    "necesidades": {
+      "agua": "Riego regular, mantener el suelo húmedo",
+      "sustrato": "Suelo suelto y bien drenado, libre de piedras",
+      "ph": "6.0-6.8"
+    },
+    "epoca_siembra": "Primavera y otoño",
+    "epoca_cosecha": "Verano y otoño",
+    "notas_adicionales": "Aclarar las plántulas para evitar el hacinamiento"
+  },
+  {
+    "nombre": "Pimiento",
+    "espacio": "45-60 cm entre plantas",
+    "tiempo_crecimiento": "60-90 días",
+    "necesidades": {
+      "agua": "Riego moderado, evitando el exceso",
+      "sustrato": "Suelo bien drenado, rico en materia orgánica",
+      "ph": "6.0-6.5"
+    },
+    "epoca_siembra": "Primavera",
+    "epoca_cosecha": "Verano y otoño",
+    "notas_adicionales": "Prefiere climas cálidos y soleados"
+  },
+  {
+    "nombre": "Espinaca",
+    "espacio": "15-20 cm entre plantas",
+    "tiempo_crecimiento": "40-50 días",
+    "necesidades": {
+      "agua": "Riego regular, mantener el suelo húmedo",
+      "sustrato": "Suelo bien drenado, rico en materia orgánica",
+      "ph": "6.0-7.0"
+    },
+    "epoca_siembra": "Primavera y otoño",
+    "epoca_cosecha": "Primavera y otoño",
+    "notas_adicionales": "Prefiere climas frescos y suelo con buen drenaje"
+  }
+]
