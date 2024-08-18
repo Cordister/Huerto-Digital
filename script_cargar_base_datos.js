@@ -1,6 +1,6 @@
 // CARGAR BASE DE DATOS CULTIVOS
 
-const url = 'https://raw.githubusercontent.com/Cordister/Huerto-Digital/main/data.json';
+const url = './data.json';
 
 async function fetchData() {
     try {
