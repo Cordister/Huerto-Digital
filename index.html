@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Gestión integral de tu Huerto digital">
+        <meta name="keywords" content="Huerto, Cultivos, Fruta, Verdura">
+        <meta name="author" content="Jordi Cortada">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Huerto Digital</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        
+        <main id="formularioParcela">
+            <header>
+                <h1>Huerto Digital</h1>
+            </header>
+
+            <form name="myForm" onsubmit="validateForm(event)" method="GET">
+                <fieldset>
+                    <legend>Indica los datos de tu Parcela:</legend>
+                    <br>
+
+                    <label for="pname">Nombre de la Parcela:</label>
+                    <input type="text" id="pname" name="pname">
+                    <br><br>
+
+                    <label for="anchoParcela">Ancho de la Parcela: </label>
+                    <input type="number" id="anchoParcela" name="anchoParcela" min="1" max="5" placeholder="1">
+                    <br><br>
+
+                    <label for="altoParcela">Alto de la Parcela: </label>
+                    <input type="number" id="altoParcela" name="altoParcela" min="1" max="5" placeholder="1">
+                    <br><br>
+
+                    <label for="orientacionParcela">Orientación de la Parcela: </label>
+                    <select type="text" name="orientacionParcela" id="orientacionParcela">
+                      <option value="Norte">Norte</option>
+                      <option value="Sur">Sur</option>
+                      <option value="Este">Este</option>
+                      <option value="Oeste">Oeste</option>
+                    </select>
+                    <br><br>
+
+                    <label for="phParcela">Ph general del sustrato: </label>
+                    <input type="number" id="phParcela" name="phParcela" step= ".1" min="4.5" max="8" placeholder="4.5">
+                    <br><br>
+
+                    <label for="tipoDeTerreno">Tipo de terreno: </label>
+                    <select name="tipoDeTerreno" id="tipoDeTerreno">
+                      <option value="arcilloso">Arcilloso</option>
+                      <option value="calizo">Calizo</option>
+                      <option value="limoso">Limoso</option>
+                      <option value="arenoso">Arenoso</option>
+                      <option value="franco">Franco</option>
+                      <option value="salino">Salino</option>
+                    </select>
+                    <br><br>
+
+                </fieldset>
+                <br>
+                <input type="submit" value="Cultivar">
+            </form> 
+            <footer>
+                <p>Creado por Jordi Cortada</p>
+            </footer>
+        </main>
+        <script src="script_introducir_datos.js"></script>
+    </body>
+</html>

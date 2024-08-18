@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Gestión integral de tu Huerto digital">
+        <meta name="keywords" content="Huerto, Cultivos, Fruta, Verdura">
+        <meta name="author" content="Jordi Cortada">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Huerto Digital</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="https://unpkg.com/konva@9/konva.min.js"></script>
+    </head>
+    <body>
+
+        <header>
+            <h1>Huerto Digital</h1>
+            <button>
+                <a href="index.html">
+                    Reconfigurar
+                </a>
+            </button>
+        </header>
+
+        <main>
+            <aside>
+                <div id="bloque-filtros">
+                    <input type="text" id="filtro-cultivos" onkeyup="filtrarCultivos()" placeholder="Buscar cultivos">
+                    <div id="botones-elementos">
+                        <button>
+                            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+                            <span class="material-symbols-outlined">potted_plant</span>
+                        </button>
+                        <button>
+                            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+                            <span class="material-symbols-outlined">water_drop</span>
+                        </button>
+                        <button>
+                            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+                            <span class="material-symbols-outlined">home</span>
+                        </button>
+                    </div>
+
+                </div>
+                <div id="gestor-filtrador-cultivos">
+
+                    <div id="container">
+                        <div><h4>Cultivos recomendados</h4></div>
+                        <ul id="listado-cultivos"></ul>
+                    </div>
+                 </div>
+            </aside>
+            <div id="configuracion-parcela">
+                <div id="info-parcela">
+                    <p>Nombre Parcela: <br><span id="nombre-parcela"></span></p>
+                    <p>Ancho: <br><span id="ancho-parcela"></span></p>
+                    <p>Alto: <br><span id="alto-parcela"></span></p>
+                    <p>Orientación: <br><span id="orientacion-parcela"></span></p>
+                    <p>Ph general: <br><span id="ph-parcela"></span></p>
+                    <p>Tipo de terreno: <br><span id="tipo-de-terreno-parcela"></span></p>
+                </div>
+
+            <div id="dibujo-parcela"></div>
+            <div id="menu">
+                <div>
+                  <button id="delete-button">Eliminar</button>
+                </div>
+              </div>
+                <script src="script_dibujar_parcela.js"></script>
+            </div>
+            
+        </main>
+        <footer>
+            <p>Creado por Jordi Cortada</p>
+        </footer>
+        <script src="script_cargar_base_datos.js"></script>
+        <script src="script_propiedades_parcela.js"></script>
+    </body>
+</html> 
